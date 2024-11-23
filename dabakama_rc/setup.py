@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'publisher_node= dabakama_rc.publisher:main',
-            'subscriber_node= dabakama_rc.subscriber:main',
+            'publisher_rpi_node= dabakama_rc.publisher:main',
+            'subscriber_rpi_node= dabakama_rc.subscriber:main',
         ],
     },
 )
